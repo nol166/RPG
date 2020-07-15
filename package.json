@@ -1,0 +1,22 @@
+{
+    "name": "rpg",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nol166/RPG.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nol166/RPG/issues"
+    },
+    "homepage": "https://github.com/nol166/RPG#readme",
+    "devDependencies": {
+        "jest": "^26.1.0"
+    }
+}
