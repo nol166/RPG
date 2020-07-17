@@ -1,0 +1,43 @@
+{
+    "name": "rpg",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "roots": [
+            "__tests__"
+        ],
+        "testPathIgnorePatterns": [
+            "/node_modules/"
+        ],
+        "moduleFileExtensions": [
+            "js",
+            "json",
+            "es6"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nol166/RPG.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nol166/RPG/issues"
+    },
+    "homepage": "https://github.com/nol166/RPG#readme",
+    "devDependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+        "jest": "^26.1.0"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true,
+        "arrowParens": "avoid"
+    }
+}
