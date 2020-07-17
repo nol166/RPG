@@ -1,4 +1,4 @@
-import Potion from '../lib/Potion.js'
+import Potion from '../lib/Potion'
 
 test('creates a random potion object', () => {
     const potion = new Potion()
