@@ -4,7 +4,8 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "start": "node app"
     },
     "jest": {
         "roots": [
@@ -39,5 +40,9 @@
         "semi": false,
         "singleQuote": true,
         "arrowParens": "avoid"
+    },
+    "dependencies": {
+        "inquirer": "^7.3.3",
+        "@babel/plugin-transform-modules-commonjs": "^7.10.4"
     }
 }
